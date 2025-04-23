@@ -1,3 +1,4 @@
+import Faq from "./components/Faq";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -7,7 +8,10 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Features />
+      <div className="px-5 lg:container lg:px-20 mx-auto">
+        <Features />
+        <Faq />
+      </div>
     </>
   );
 }

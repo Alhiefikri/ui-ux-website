@@ -9,7 +9,7 @@ import PinkButton from "../../public/assets/pink-button.svg";
 
 const Features = () => {
   return (
-    <div className="px-5 lg:container lg:px-20 mx-auto flex flex-col gap-y-[55px] py-[56px] lg:py-[120px] lg:gap-y-20">
+    <div className="flex flex-col gap-y-[55px] py-[56px] lg:py-[120px] lg:gap-y-20">
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse ">
         <Image
           src={Feature1}
